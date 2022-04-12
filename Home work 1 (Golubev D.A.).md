@@ -1,5 +1,5 @@
 1) Посмотреть где я
-`pwd
+`pwd`
 
 2) Создать папку
 `mkdir folder
@@ -11,7 +11,7 @@
 `mkdir folder{1,2,3} 
 
 5) Зайти в любоую папку
-`cd folder1
+`cd folder1`
 
 6) Создать 5 файлов (3 txt, 2 json)
 `touch file{1,2,3}.txt jile{1,2}.json
