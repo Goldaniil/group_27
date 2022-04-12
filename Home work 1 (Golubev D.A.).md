@@ -1,69 +1,88 @@
 1) Посмотреть где я
+
 `pwd`
 
 2) Создать папку
-`mkdir folder
+
+`mkdir folder`
 
 3) Зайти в папку
-`cd folder
+
+`cd folder`
 
 4) Создать 3 папки
-`mkdir folder{1,2,3} 
+
+`mkdir folder{1,2,3}`
 
 5) Зайти в любоую папку
+
 `cd folder1`
 
 6) Создать 5 файлов (3 txt, 2 json)
-`touch file{1,2,3}.txt jile{1,2}.json
+
+`touch file{1,2,3}.txt jile{1,2}.json`
 
 7) Создать 3 папки
-`mkdir folder{a,b,c}
+
+`mkdir folder{a,b,c}`
 
 8. Вывести список содержимого папки
-`ls
+
+`ls`
 
 9) + Открыть любой txt файл
-`nano file1.txt
+
+`nano file1.txt`
 
 10) + написать туда что-нибудь, любой текст.
 
 11) + сохранить и выйти.
-`:wq
+
+`:wq`
 
 12) Выйти из папки на уровень выше
-`cd ../
+
+`cd ../`
 
 —
 
 13) переместить любые 2 файла, которые вы создали, в любую другую папку.
-`mv ./folder1/file{1,2}.txt ./folder2
+
+`mv ./folder1/file{1,2}.txt ./folder2`
 
 14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
-`cp ./folder1/jile{1,2}.json ./folder3 
+
+`cp ./folder1/jile{1,2}.json ./folder3`
 
 15) Найти файл по имени
-`find ./ -name "file?.txt"
+
+`find ./ -name "file?.txt"`
 
 16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
-`tail -f filename
+
+`tail -f filename`
 
 17) вывести несколько первых строк из текстового файла
-`head -2 filename
+
+`head -2 filename`
 
 18) вывести несколько последних строк из текстового файла
-`tail -2 filename
+
+`tail -2 filename`
 
 19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
-`less filename
+
+`less filename`
 
 20) вывести дату и время
-`date
+
+`date`
 
 =========
 
   
 
-Задание *
+**Задание** *
 
 1) Отправить http запрос на сервер.
 
